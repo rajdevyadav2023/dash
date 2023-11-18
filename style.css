@@ -77,3 +77,38 @@ body{
     cursor: pointer;
     width: 100%;
 }
+
+/* main board  */
+.main-board{
+    width:84% ;
+    height: 100%;
+    border: 1px solid red;
+    padding: 1rem;
+}
+.main-board-header{
+    display: flex;
+    justify-content: space-between;
+}
+.admin-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.admin-links button{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #555;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: .5rem;
+}
+.admin{
+    display: flex;
+    align-items: center;
+}
+.admin p{
+    font-size: 12px;
+}
